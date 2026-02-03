@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Telegraf/Influx/Grafana data (optional)
+/data/
+/grafana/data/
+/influxdb/data/
+
+# Ignore IDE files
+.vscode/
